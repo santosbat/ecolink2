@@ -1,11 +1,25 @@
-import { Link } from "react-router-dom"
-import "./file.css"
-
+import { Link } from "react-router-dom" // importando link
+import "./file.css" // importando css
+import {FaHome} from "react-icons/fa" // importando icone
 function Cadastro() {
     return (
           <div className="container">
+            
         <div className="card">
+          
+        <div className="home-container">
+          <button className="button-home">
+            <Link to="/Home">
+            <FaHome className="home-icon" /> 
+            {/* Ícone de casa */}
+            </Link>
+            </button>
+          
+        </div>
             <h2>Cadastrar</h2>
+
+
+
             <form action="#" method="POST">
                 <label for="name">Nome</label>
                 <input type="text" id="name" name="name" required/>
@@ -21,6 +35,8 @@ function Cadastro() {
 
                 <button type="submit">Cadastrar-se</button>
             </form>
+
+           
             <Link to={"/login"}>Já tem uma conta? Faça login</Link>
         </div>
       </div>
