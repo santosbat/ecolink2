@@ -1,23 +1,28 @@
 import { Link } from "react-router-dom"
+import "./file.css"
 
 function Cadastro() {
     return (
+          <div className="container">
+        <div className="card">
+            <h2>Cadastrar</h2>
+            <form action="#" method="POST">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required/>
 
-        <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required/>
 
-          <h2>Cadastro</h2>
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required/>
 
-        <form action="" className='cadastro'>
+                <label for="confirm-password">Repita sua Senha</label>
+                <input type="password" id="confirm-password" name="confirm-password" required/>
 
-          <input type="text" placeholder='Nome' />
-          <input type="email" placeholder='Email' />
-          <input type="password" placeholder='Senha' />
-          <button>Cadastrar-se</button>
-
-        </form>
-
-        <Link to={"/login"}>Já tem uma conta? Faça login</Link>
-
+                <button type="submit">Cadastrar-se</button>
+            </form>
+            <Link to={"/login"}>Já tem uma conta? Faça login</Link>
+        </div>
       </div>
     )
 }
