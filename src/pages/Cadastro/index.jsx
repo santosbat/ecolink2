@@ -21,16 +21,16 @@ function Cadastro() {
 
 
             <form action="#" method="POST">
-                <label for="name">Nome</label>
+                <label htmlFor="name">Nome</label>
                 <input type="text" id="name" name="name" required/>
 
-                <label for="email">Email</label>
+                <label htmlFor="email">Email</label>
                 <input type="email" id="email" name="email" required/>
 
-                <label for="password">Senha</label>
+                <label htmlFor="password">Senha</label>
                 <input type="password" id="password" name="password" required/>
 
-                <label for="confirm-password">Repita sua Senha</label>
+                <label htmlFor="confirm-password">Repita sua Senha</label>
                 <input type="password" id="confirm-password" name="confirm-password" required/>
 
                 <button type="submit">Cadastrar-se</button>

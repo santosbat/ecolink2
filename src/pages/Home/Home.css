@@ -1,0 +1,14 @@
+:root{
+    --main-color: #3a7a43;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2 linear;
+}
+
