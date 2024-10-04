@@ -69,10 +69,11 @@
   }
   
  .image_exemplo {
+    
     align-items: center;
     justify-content: center;
-    width: 50%;
-    height: 50%;
+    width: 1200px;
+    height: 850px;
     padding-bottom: 3%;
  }
 
@@ -81,6 +82,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 350px;
  }
 
  .div_botao_exemplo{
@@ -94,4 +96,40 @@
  .botao_exemplo{
     width: 150px;
      height: 50px;
+}
+
+.nossa_proposta {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+}
+
+.sec_prop {
+  width: 1600px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+
+}
+
+.proposta{
+  display: flex;
+  width: 900px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+
+}
+
+.aprendizado {
+
+}
+
+.aprend_sec {
+
 }

@@ -16,7 +16,7 @@ function Cadastro() {
             </button>
           
         </div>
-            <h2>Cadastrar</h2>
+            <h2 className="h2_cad">Cadastrar</h2>
 
 
 
