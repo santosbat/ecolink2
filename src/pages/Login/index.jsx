@@ -9,21 +9,23 @@ function Login() {
 
 
 
-        <div className="container">
-
-            <div className="home-container">
-                <button className="button-home" onClick={() => navigate(-1)}>
-                    <Link to="/Home">
-                        <SlArrowLeft className="home-icon" />
-                        {/* Ícone de seta para voltar */}
-                    </Link>
-                </button>
-
-            </div>
+        
 
 
 
             <div className="card">
+
+                <div className="container">
+
+                <div className="home-container">
+                    <button className="button-home" onClick={() => navigate(-1)}>
+                        <Link to="/Home">
+                            <SlArrowLeft className="home-icon" />
+                            {/* Ícone de seta para voltar */}
+                        </Link>
+                    </button>
+
+                </div>
 
                 <h2>Login</h2>
                 <form action="#" method="POST">

@@ -28,9 +28,9 @@ function Home() {
 
           <section className="sec_prop">
 
-            <h1 className="proposta">
+            <p className="proposta">
               Nossa proposta não apenas aborda uma questão de preservação ambiental mas tambem estaremos protegendo o meio ambiente, promovendo uma mudança positiva em nossa comunidade, gerando reconhecimento e incentivo para iniciativas sustentáveis, além disso,  também oferecendo a oportunidade de ganhar prêmios por contribuir com a sustentabilidade.
-            </h1>
+            </p>
 
           </section>
 
@@ -41,24 +41,29 @@ function Home() {
         <button className="botao_exemplo">Descartar</button>
       </div>
 
-      <div className="aprendizado">
-        <section>
-          <h2>Concientizção</h2>
-        </section>
+      <div className="div_exemplo2">
 
         <div>
 
-          <section className="aprend_sec">
-          <p className="aprend_p">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit incidunt hic nam dicta accusantium, delectus minus laboriosam velit. Recusandae officiis obcaecati magni reiciendis quidem voluptatibus modi tempore voluptas eum voluptatum!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit incidunt hic nam dicta accusantium, delectus minus laboriosam velit. Recusandae officiis obcaecati magni reiciendis quidem voluptatibus modi tempore voluptas eum voluptatum!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit incidunt hic nam dicta accusantium, delectus minus laboriosam velit. Recusandae officiis obcaecati magni reiciendis quidem voluptatibus modi tempore voluptas eum voluptatum!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit incidunt hic nam dicta accusantium, delectus minus laboriosam velit. Recusandae officiis obcaecati magni reiciendis quidem voluptatibus modi tempore voluptas eum voluptatum!
-          </p>
+          <section className="nossa_proposta">
+            <h2>Concientização</h2>
+          </section>
+
+          <section className="sec_prop">
+
+            <p className="proposta">
+            A ecologia é a ciência que estuda as interações entre os seres vivos e o ambiente. Compreender esses relacionamentos é fundamental para garantir a saúde do nosso planeta e a qualidade de vida das futuras gerações. A preservação do meio ambiente não é apenas uma responsabilidade individual, mas um dever coletivo que impacta todos nós.
+            Uma das questões mais urgentes que enfrentamos atualmente é o manejo do lixo. O descarte inadequado de resíduos pode causar sérios danos ao meio ambiente. Lixos jogados em locais inadequados não apenas poluem o solo e a água, mas também afetam a fauna e a flora locais, criando desequilíbrios ecológicos que podem ter consequências desastrosas.
+            </p>
+
           </section>
 
         </div>
-
       </div>
 
-      <footer className="footer_h"></footer>
+      <div className="div_botao_exemplo">
+        <button className="botao_exemplo">Aprenda Mais</button>
+      </div>
 
     </div>
   );
