@@ -1,8 +1,10 @@
-* {
+|*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
 
 body {
     height: 100vh;
@@ -10,17 +12,10 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Georgia', serif;
-    background-color: #eafaf1;
+    background-color: #60796a;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.card {
+.card_log{
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -28,26 +23,34 @@ body {
     max-width: 400px;
     width: 100%;
     text-align: center;
+
 }
 
-.h2_cad {
+.container_log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.h2_log {
     margin-bottom: 20px;
     color: #357a38;
 }
 
-.formcad {
+.formlog {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.la {
+.la_log {
     font-size: 14px;
     color: #357a38;
     text-align: left;
 }
 
-.it {
+.it_log {
     padding: 10px;
     border: 1px solid #cce6d8;
     border-radius: 5px;
@@ -55,7 +58,7 @@ body {
     color: #333;
 }
 
-.but {
+.but_log {
     background-color: #4caf50;
     color: #fff;
     padding: 12px;
@@ -66,32 +69,32 @@ body {
     transition: background-color 0.3s;
 }
 
-.but:hover {
+.but_log:hover {
     background-color: #45a049;
 }
 
-.it:focus {
+.it_log:focus {
     outline: none;
     border-color: #4caf50;
 }
 
-.homebt-container {
+.back-container {
     display: flex;
     align-items: center;
     margin-top: 2px;
 }
   
-.home-icon {
+.back-icon {
     margin-right: none;
     font-size: 30px;
 }
   
-.home-container a {
+.back-container a {
     text-decoration: none;
     color: #c8ddcd;
 }
   
-.button-home {
+.button-back {
     background-color: #110f0f;
     color: #fff;
     padding: 12px;

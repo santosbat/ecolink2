@@ -7,7 +7,7 @@ function Cadastro() {
             
         <div className="card">
           
-        <div className="home-container">
+        <div className="homebt-container">
           <button className="button-home">
             <Link to="/Home">
             <FaHome className="home-icon" /> 
@@ -20,20 +20,20 @@ function Cadastro() {
 
 
 
-            <form action="#" method="POST">
-                <label htmlFor="name">Nome</label>
-                <input type="text" id="name" name="name" required/>
+            <form className="formcad" action="#" method="POST">
+                <label className="la" htmlFor="name">Nome</label>
+                <input className="it" type="text" id="name" name="name" required/>
 
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" name="email" required/>
+                <label className="la" htmlFor="email">Email</label>
+                <input className="it" type="email" id="email" name="email" required/>
 
-                <label htmlFor="password">Senha</label>
-                <input type="password" id="password" name="password" required/>
+                <label className="la" htmlFor="password">Senha</label>
+                <input className="it" type="password" id="password" name="password" required/>
 
-                <label htmlFor="confirm-password">Repita sua Senha</label>
-                <input type="password" id="confirm-password" name="confirm-password" required/>
+                <label className="la" htmlFor="confirm-password">Repita sua Senha</label>
+                <input className="it" type="password" id="confirm-password" name="confirm-password" required/>
 
-                <button type="submit">Cadastrar-se</button>
+                <button className="but" type="submit">Cadastrar-se</button>
             </form>
 
            
